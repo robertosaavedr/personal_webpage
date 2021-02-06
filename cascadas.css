@@ -5,11 +5,11 @@ ul {
 }
 
 nav li {
-    display: inline-block
+    display: inline-block;
 }
 
 nav li a {
-    display: block;
+    display: inline-block;
     text-align: center;
     padding: 15px 18px;
     text-decoration: none;
@@ -17,7 +17,19 @@ nav li a {
 }
 
 .center {
-    display: block;
+    /*display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
+}
+
+
+figure figcaption {
+    text-align: center;
+}
+
+#floated{
+    margin-right: 1cm;
+    float: left;
+    width: 20%;
+ 
 }
