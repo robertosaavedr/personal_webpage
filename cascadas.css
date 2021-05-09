@@ -33,3 +33,9 @@ figure figcaption {
     width: 20%;
  
 }
+
+@media screen and (max-width: 768px) {
+    .Foljoss {
+       margin-left: 2cm;
+    }
+  }
